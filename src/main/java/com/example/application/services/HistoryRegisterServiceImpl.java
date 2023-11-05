@@ -3,11 +3,9 @@ package com.example.application.services;
 import com.example.application.repositories.HistoryRegisterRepository;
 import com.example.application.entities.HistoryRegister;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service
-@Component
 public class HistoryRegisterServiceImpl implements HistoryRegisterService {
 
     @Autowired
